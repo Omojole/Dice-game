@@ -1,68 +1,147 @@
-.player{
-    margin-top: 15vh;
-    font-size: 3rem;
+
+.player {
+  margin-top: 15vh;
+  font-size: 3rem;
 }
-#player-box{
-    border-radius: 12px;
+#player-box {
+  border-radius: 12px;
 }
-.container-fluid{
-    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
-    position: relative;
+.padding{
+    padding-top: 1rem;
 }
-.total-score{
-    font-size: 3rem;
-    color: rgb(197, 44, 95);
+.container-fluid {
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  position: relative;
+  height: 100vh;
+}
+.total-score {
+  font-size: 3rem;
+  color: rgb(197, 44, 95);
+}
+.box {
+  border-radius: 12px;
+  background-color: rgb(179, 89, 119);
+  width: 90vw;
 
 }
-.box{
-    border-radius: 12px;
-    background-color:rgb(179, 89, 119);
+.current {
+  width: 6rem;
+  border-radius: 8px;
+  height: 8rem;
+  background-color: rgb(197, 44, 95);
+}
+#current--1 {
+  margin-left: 12px;
+  margin-top: 14vh;
+}
+#current--2 {
+  float: right;
+  margin-right: 12px;
+  margin-top: 13vh;
+}
+.current-heading {
+  font-size: 18px;
+}
+button {
+  position: absolute;
+  border-radius: 20px;
+  height: 7vh;
+  border: none;
 
 }
-.current{
-    width: 6rem;
-    /* margin-top: 32vh; */
-    border-radius: 8px;
-    height:6rem ;
-    background-color:rgb(197, 44, 95);
-
-    /* float: right;
-margin-right:15px ;   */
+.reset {
+  top: 8%;
+  left: 35%;
 }
-#current--1{
-    margin-left: 12px;
-    margin-top: 14vh;
-
+.roll {
+  bottom: 30%;
+  left: 35%;
 }
-#current--2{
+.hold {
+  bottom: 20%;
+  left: 40%;
+}
+
+.active {
+  background-color: rgba(253, 251, 251, 0.4);
+}
+@media screen and (min-width: 600px) {
+    .current{
+        height: 10rem;
+    }
+  #current--1 {
+    margin-left: 15vw;
+    margin-top: 24vh;
+  }
+  #current--2 {
     float: right;
-    margin-right: 12px;
-    margin-top: 13vh;
+    margin-right: 15vw;
+    margin-top: 23vh;
+  }
+  button {
+    width: 13rem;
+  }
+  .roll {
+    bottom: 37%;
+    left: 35%;
+  }
+  .hold {
+    bottom: 29%;
+    left: 36%;
+  }
+  
 
 }
-.current-heading{
-    font-size: 18px;
-}
-button{
-    position: absolute;
-    border-radius: 20px;
-    height:7vh ;
-}
-.reset{
-    top: 5%;
-    left:35%
-}
-.roll{
-    bottom: 32%;
-    left: 35%;
-}
-.hold{
-    bottom: 24%;
-    left: 40%;
-}
-.active{
-    background-color: rgba(253, 251, 251, 0.4);
-}
-@media screen and (min-width: 600px){
+@media screen and (min-width: 800px) {
+    button {
+        height: 4rem;
+      }
+      .roll {
+        bottom: 40%;
+      }
+      .hold {
+        bottom: 33%;
+      }
+      .padding{
+        padding-top: 2rem;
+      }
     
 }
+@media screen and (min-width: 1000px) {
+    .current{
+        width: 12rem;
+        height: 10rem;
+    }
+    .reset{
+        left: 42%;
+    }
+    .roll {
+        left: 42%;
+        bottom: 24%;
+      }
+      .hold {
+        bottom: 10%;
+        left: 42%;
+      }
+    #current--1{
+        margin-left:8vw ;
+    }
+    #current--2{
+        margin-right:8vw ;
+    }
+.box{
+    width: 80vw;
+}
+button{
+    height: 8vh;
+    font-size: 19px;
+    width: 10rem;
+}
+.total-score{
+    font-size:5rem ;
+}
+}
+/* position of .current
+font 
+check responsiveness for mac 
+still check for other devices from programming tool */
