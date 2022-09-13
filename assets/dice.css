@@ -1,0 +1,68 @@
+.player{
+    margin-top: 15vh;
+    font-size: 3rem;
+}
+#player-box{
+    border-radius: 12px;
+}
+.container-fluid{
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    position: relative;
+}
+.total-score{
+    font-size: 3rem;
+    color: rgb(197, 44, 95);
+
+}
+.box{
+    border-radius: 12px;
+    background-color:rgb(179, 89, 119);
+
+}
+.current{
+    width: 6rem;
+    /* margin-top: 32vh; */
+    border-radius: 8px;
+    height:6rem ;
+    background-color:rgb(197, 44, 95);
+
+    /* float: right;
+margin-right:15px ;   */
+}
+#current--1{
+    margin-left: 12px;
+    margin-top: 14vh;
+
+}
+#current--2{
+    float: right;
+    margin-right: 12px;
+    margin-top: 13vh;
+
+}
+.current-heading{
+    font-size: 18px;
+}
+button{
+    position: absolute;
+    border-radius: 20px;
+    height:7vh ;
+}
+.reset{
+    top: 5%;
+    left:35%
+}
+.roll{
+    bottom: 32%;
+    left: 35%;
+}
+.hold{
+    bottom: 24%;
+    left: 40%;
+}
+.active{
+    background-color: rgba(253, 251, 251, 0.4);
+}
+@media screen and (min-width: 600px){
+    
+}
