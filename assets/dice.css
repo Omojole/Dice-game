@@ -47,7 +47,7 @@ button {
   border-radius: 20px;
   height: 7vh;
   border: none;
-
+opacity: .7;
 }
 .reset {
   top: 8%;
@@ -130,7 +130,7 @@ button {
         margin-right:8vw ;
     }
 .box{
-    width: 80vw;
+    width: 75vw;
 }
 button{
     height: 8vh;
@@ -144,4 +144,5 @@ button{
 /* position of .current
 font 
 check responsiveness for mac 
-still check for other devices from programming tool */
+still check for other devices from programming tool
+positioning of buttons */
