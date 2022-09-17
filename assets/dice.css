@@ -40,6 +40,9 @@
 .current-heading {
   font-size: 18px;
 }
+.winner{
+  background-color: black;
+}
 button {
   position: absolute;
   border-radius: 20px;
@@ -62,6 +65,15 @@ opacity: .7;
 
 .active {
   background-color: rgba(253, 251, 251, 0.4);
+}
+img{
+  position: absolute;
+  width: 20%;
+  top: 28%;
+  left: 40%;
+}
+.hidden{
+  display: none;
 }
 @media screen and (min-width:360px){
   .container-fluid{

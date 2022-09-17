@@ -16,32 +16,34 @@
   <body>
     <div class="container-fluid d-flex justify-content-center py-2">
       <div class="box d-flex">
-        <div id="player-box" class="player-1 active w-50 text-center">
+        <div id="player-box" class="player-0 active w-50 text-center">
           <h1 class="player">PLAYER 1</h1>
-          <h1 class="total-score mt-5">0</h1>
+          <h1 class="total-score mt-5" id="totalScore0">0</h1>
           <div id="current--1" class="current d-flex justify-content-center">
             <div class="padding">
               <span class="current-heading">CURRENT</span>
-              <h1 class="current-score">0</h1>
+              <h1 class="current-score" id="currentScore0">0</h1>
             </div>
           </div>
         </div>
         <div id="player-box" class="player-1 w-50 text-center">
           <h1 class="player">PLAYER 1</h1>
-          <h1 class="total-score mt-5">0</h1>
+          <h1 class="total-score mt-5" id="totalScore1">0</h1>
           <div id="current--2" class="current d-flex justify-content-center">
             <div class="padding">
               <span class="current-heading">CURRENT</span>
-              <h1 class="current-score">0</h1>
+              <h1 class="current-score" id="currentScore1">0</h1>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <img src="/assets/Images/dice-1.png" class='dice-img hidden' alt="dice">
     <button type="reset" class="reset">🔁 NEW GAME</button>
     <div class="ctrl-btns w-100">
       <button type="button" class="roll">🎲 ROLL DICE</button>
       <button type="submit" class="hold">📩 HOLD</button>
     </div>
+    <script src="dice.js"></script>
   </body>
 </html>
