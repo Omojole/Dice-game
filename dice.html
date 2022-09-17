@@ -7,40 +7,41 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/dice.css" />
+    <link rel="stylesheet" href="assets/dice.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
-    <div class="container-fluid d-flex justify-content-center">
-      <div class="box d-flex my-2">
-      <div id="player-box" class="player-1 active w-50 vh-100 text-center">
-        <h1 class="player">PLAYER 1</h1>
-        <h1 class="total-score mt-5">0</h1>
-        <div id="current--1" class="current d-flex justify-content-center">
-          <div class="padding">
-            <span class="current-heading">CURRENT</span>
-            <h1 class="current-score">0</h1>
+    <div class="container-fluid d-flex justify-content-center py-2">
+      <div class="box d-flex">
+        <div id="player-box" class="player-1 active w-50 text-center">
+          <h1 class="player">PLAYER 1</h1>
+          <h1 class="total-score mt-5">0</h1>
+          <div id="current--1" class="current d-flex justify-content-center">
+            <div class="padding">
+              <span class="current-heading">CURRENT</span>
+              <h1 class="current-score">0</h1>
+            </div>
           </div>
         </div>
-      </div>
-      <div id="player-box" class="player-1 w-50 vh-100 text-center">
-        <h1 class="player">PLAYER 1</h1>
-        <h1 class="total-score mt-5">0</h1>
-        <div id="current--2" class="current d-flex justify-content-center">
-          <div class="padding">
-            <span class="current-heading">CURRENT</span>
-            <h1 class="current-score">0</h1>
+        <div id="player-box" class="player-1 w-50 text-center">
+          <h1 class="player">PLAYER 1</h1>
+          <h1 class="total-score mt-5">0</h1>
+          <div id="current--2" class="current d-flex justify-content-center">
+            <div class="padding">
+              <span class="current-heading">CURRENT</span>
+              <h1 class="current-score">0</h1>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
-    <button type="reset" class="reset">🔁  NEW GAME</button>
-    <button type="button" class="roll">🎲  ROLL DICE</button>
-    <button type="submit" class="hold">📩  HOLD</button>
-
+    <button type="reset" class="reset">🔁 NEW GAME</button>
+    <div class="ctrl-btns w-100">
+      <button type="button" class="roll">🎲 ROLL DICE</button>
+      <button type="submit" class="hold">📩 HOLD</button>
+    </div>
   </body>
 </html>
