@@ -17,32 +17,40 @@
     <div class="container-fluid d-flex justify-content-center py-2">
       <div class="box d-flex">
         <div id="player-box" class="player-0 active w-50 text-center">
-          <h1 class="player">PLAYER 1</h1>
-          <h1 class="total-score mt-5" id="totalScore0">0</h1>
-          <div id="current--1" class="current d-flex justify-content-center">
-            <div class="padding">
-              <span class="current-heading">CURRENT</span>
-              <h1 class="current-score" id="currentScore0">0</h1>
-            </div>
-          </div>
+          <div class="player">PLAYER 1</div>
+          <div class="total-score mt-2" id="totalScore0">0</div>
         </div>
         <div id="player-box" class="player-1 w-50 text-center">
-          <h1 class="player">PLAYER 1</h1>
-          <h1 class="total-score mt-5" id="totalScore1">0</h1>
-          <div id="current--2" class="current d-flex justify-content-center">
-            <div class="padding">
-              <span class="current-heading">CURRENT</span>
-              <h1 class="current-score" id="currentScore1">0</h1>
-            </div>
-          </div>
+          <div class="player">PLAYER 1</div>
+          <div class="total-score mt-2" id="totalScore1">0</div>
         </div>
       </div>
     </div>
     <img src="/assets/Images/dice-1.png" class="dice-img hidden" alt="dice" />
-    <button type="reset" class="reset">🔁 NEW GAME</button>
-    <div class="ctrl-btns w-100">
+    <div class="reset d-flex justify-content-center">
+    <button type="reset" class="">🔁 NEW GAME</button>
+    </div>
+    <div class="d-flex justify-content-center">
+    <div class="center">
+      <div id="current--1" class="current d-flex  ">
+        <div class="padding">
+          <span class="current-heading">CURRENT</span>
+          <h1 class="current-score mt-3" id="currentScore0">0</h1>
+        </div>
+      </div>
+
+    <div class="ctrl-btns ">
       <button type="button" class="roll">🎲 ROLL DICE</button>
-      <button type="submit" class="hold">📩 HOLD</button>
+      <button type="submit" class="hold mt-2">📩 HOLD</button>
+    </div>
+    <div id="current--2" class="current d-flex ">
+      <div class="padding">
+        <span class="current-heading">CURRENT</span>
+        <h1 class="current-score mt-3" id="currentScore1">0</h1>
+      </div>
+    </div>
+    </div>
+
     </div>
     <script src="dice.js"></script>
   </body>
