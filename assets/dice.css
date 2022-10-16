@@ -93,9 +93,8 @@ img {
     width: 10rem;
 
   }
+  img{
+    width: 15%;
+    left: 43%;
+  }
 }
-/* 
-font 
-player-box
-still check for other devices from programming tool
-positioning of buttons */

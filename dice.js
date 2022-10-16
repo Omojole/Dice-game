@@ -55,7 +55,7 @@ btnRoll.addEventListener("click", function () {
     current += dice;
     document.getElementById(`currentScore${activePlayer}`).innerHTML = current;
     diceImg.classList.remove("hidden");
-    diceImg.src = `/assets/images/dice-${dice}.png`;
+    diceImg.src = `assets/images/dice-${dice}.png`;
     if (dice === 1) {
       switchPlayer();
     }
